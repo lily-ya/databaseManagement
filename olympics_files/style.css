@@ -1,0 +1,37 @@
+/* Show it is fixed to the top */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding-top: 4.5rem;
+  position: relative;
+}
+
+#map {
+  height: 700px;
+  width: 1110px;
+}
+
+.footer {
+ background: black;
+ margin: 0;
+ left: 0; 
+ right: 0;
+ padding: 5px;
+ position: absolute;
+ text-align:center;
+ color: grey;
+}
+
+.coverImage {
+  width: 170px;
+  height: 170px;
+  transition: all .2s ease-in-out;
+  padding: 10px;
+}
+
+.margin {
+  margin: 5px;
+}
